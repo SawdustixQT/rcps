@@ -1,0 +1,4 @@
+pr10:
+	@clang pr10.c -F/Users/ivan/mirea/kisport/ИКБО-21-22 -framework SDL2 -rpath /Users/ivan/mirea/kisport/ИКБО-21-22 -Wextra -Wall -std=c99 -o pr10
+	@./pr10 
+	@rm -rf pr10 
