@@ -24,5 +24,12 @@
 
 
 ## 10 Занятие
+Выполнение [задач №4, 5, 6, 12](https://github.com/true-grue/kisport/blob/main/pract2.md) 
 
-Выполнение [задач №4, 5, 6, 12](https://github.com/true-grue/kisport/blob/main/pract2.md)
+
+## 11 Занятие
+Создание программ для прохождения тестов 4 и 5
+
+## 12 Занятие
+Работа с Lua и C (библиотека SDL)
+

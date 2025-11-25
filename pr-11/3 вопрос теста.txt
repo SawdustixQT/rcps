@@ -1,0 +1,13 @@
+# Разработка кроссплатформенных программных систем. Тест №4. Деревья абстрактного синтаксиса. 
+import sys
+x = 5
+y = 3
+(3 + 8) - (x if x != 9 else x) - (y & 8)
+import ast
+tree = ast.parse("2 + 3", mode="eval")
+print(ast.dump(tree))
+
+ast.unparse(Expression(body=BinOp(left=Constant(value=2), op=Add(), right=BinOp(left=Constant(value=3), op=Mult(), right=Constant()))))   6))))")
+
+# тест 5
+

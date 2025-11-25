@@ -1,0 +1,7 @@
+# компиляция lua
+mingw32-make.exe mingw 
+
+# При запуске
+utils = require('utils');
+
+# Вызов makeutils.bat

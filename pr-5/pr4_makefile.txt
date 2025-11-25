@@ -1,0 +1,7 @@
+pr4:
+	@clang pr4.c -F(Путь До файла) -framework SDL2 -rpath (Путь до файла) -o -Wextra -Wall -std=c99
+	@./pr4
+	@rm -rf pr4
+	
+# make pr4
+# @ - скрыть команды
