@@ -33,3 +33,16 @@
 ## 12 Занятие
 Работа с Lua и C (библиотека SDL)
 
+## 13 Занятие
+
+## 14 Занятие
+
+1-4 Этапы УВМ (40 вариант группы ИКБО-19-22)
+
+Для запуска написать в терминале "python stage_1-2.py prog.yml prog.bin" или "python stage_3-4.py prog.bin prog.csv"
+
+!['img-1'](pr-14/img/40_19-22_page-0001.jpg) <br>
+!['img-2'](pr-14/img/40_19-22_page-0002.jpg) <br>
+!['img-3'](pr-14/img/40_19-22_page-0003.jpg) <br>
+!['img-4'](pr-14/img/40_19-22_page-0004.jpg) <br>
+

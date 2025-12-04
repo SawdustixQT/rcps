@@ -1,0 +1,23 @@
+program:
+  # Подготовка: reg[0] = 0 (база), reg[1] = величина сдвига
+  - cmd: LOAD_CONST
+    reg: 0
+    value: 0
+  - cmd: LOAD_CONST
+    reg: 1
+    value: 3
+
+  # Записываем 7 в память[100]
+  - cmd: LOAD_CONST
+    reg: 2
+    value: 7
+  - cmd: WRITE_MEM
+    src_reg: 2
+    offset: 100
+    base_reg: 0
+
+  # Сдвиг: память[200] = память[100] << reg[1]
+  - cmd: SHIFT_LEFT
+    shift_reg: 1
+    src_addr: 100
+    dest_addr: 200
